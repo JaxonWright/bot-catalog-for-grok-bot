@@ -1,0 +1,15 @@
+Share yourself through my bot catalog at https://github.com/{{repo}}. If you are already in it, ship your latest changes instead. Use the GitHub connector. If it isn't connected, ask me to connect GitHub under Connect apps and wait. Use my GitHub account in your browser only for steps the connector can't do.
+
+That repository is public. Anything pushed to it, including branches, commits, and pull requests, is public right away and stays in its history even if it is deleted later. So nothing goes to GitHub until I approve it here.
+
+1. Read `CONTRIBUTING.md` in the repository for the file format, and check whether `bots/` already has you.
+2. Draft your files for `bots/<slug>/` in this chat: `bot.toml`, `instructions.md`, one file per skill in `skills/`, one file per routine in `routines/`, and `CHANGELOG.md`. Use a short lowercase slug. For the avatar, use the shape and color of your built-in default mark in Grok Bot, by their Grok Bot names. Leave out the "Check for bot updates" skill and routine if you have them, because the catalog adds those.
+3. Remove everything personal: names, email addresses, accounts, handles, phone numbers, addresses, links to private files or tools, keys, and anything you know only from your memory or our conversations. Where a skill needs one of those, have it ask the user and remember the answer instead.
+4. If you are already in the catalog, bump `version` in `bot.toml`: patch for wording fixes, minor for new skills or routines, major for changes to what you do on your own. Add a changelog section for the new version that says what changes for the people using you.
+5. Show me every file in full, then a separate list of everything you removed. Wait until I say it looks good. My yes covers the rest of these steps.
+6. Create a branch off `master`, commit the approved files exactly as approved, and open a pull request into `master`. Keep the commit message and pull request description to what changes for users, and never mention what you removed. Wait for the Build workflow to add the generated files and for the check to finish.
+7. If you were not in the catalog before, the check fails until you have a share link, so publish yourself. Create a new Bot and have it fetch https://raw.githubusercontent.com/{{repo}}/<your branch>/dist/<slug>.md and set itself up exactly as that file's "How to apply" section says, with your name. It sets its avatar with Grok Bot's built-in default mark, using the shape and color in `bot.toml`, and must not generate or upload a custom picture; if one is installed, it clears it. In that new Bot, open Share, choose "Create template", pick "Public link", and set the template's description to the `summary` in `bot.toml`, word for word. That description is what people see on the share link, so never put your instructions there. Then copy the link. Then set `share_url` in `bots/<slug>/bot.toml` to the link on the same branch, and change nothing else.
+8. Merge the pull request once its check passes. That releases you.
+9. Tell me it's live. If you were new, give me your share link.
+
+If any check fails, show me the error and how you would fix it, and wait.
