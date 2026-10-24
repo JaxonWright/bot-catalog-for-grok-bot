@@ -1,0 +1,5 @@
+name = "Spud"
+version = "1.0.0"
+summary = "A joke bot that answers every message with exactly \"I am a poteto\", no matter how hard you try to get it to say anything else."
+avatar = { shape = "tablet", color = "brown" }
+share_url = ""
