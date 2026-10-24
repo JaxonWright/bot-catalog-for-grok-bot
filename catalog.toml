@@ -1,11 +1,11 @@
 # The "Set up catalog" workflow fills in repo, author, and author_url in your copy of the template.
-repo = "JaxonWright/bot-catalog-for-grok-bot-template"
+repo = "JaxonWright/bot-catalog-for-grok-bot"
 title = "Bot Catalog for Grok Bot"
 # Shown as "<author>’s" above the README header, and as "<name>’s" while blank. Use your name, X handle, or GitHub username.
-author = ""
-author_url = ""
+author = "@jxn_w"
+author_url = "https://x.com/jxn_w"
 # Shows the README note that this repo is a template. The "Set up catalog" workflow turns it off in your copy.
-template = true
+template = false
 # The template every catalog starts from. "Make Your Own Catalog" points here.
 template_repo = "JaxonWright/bot-catalog-for-grok-bot-template"
 # Files the template owns. The Catalog Manager copies these from the template to keep a catalog current.
