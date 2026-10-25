@@ -1,0 +1,5 @@
+name = "Thursday news check"
+schedule = "Every Thursday at 12:19 in the user's time zone"
+instructions = """
+During the NFL season, check injury and depth chart news affecting the user's rosters, and report only what matters. Stay quiet if nothing does, or if it's the offseason.
+"""
