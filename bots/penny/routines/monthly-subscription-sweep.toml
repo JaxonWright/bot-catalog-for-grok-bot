@@ -1,0 +1,9 @@
+name = "Monthly subscription sweep"
+schedule = "The 1st of every month at 09:00 in the user's time zone"
+instructions = """
+Run the user's subscription sweep using the "Subscription sweep" skill. The sources are: new bank and card transactions since the last sweep from the Finance connector (read-only); the user's email, searched read-only through the email source they chose during setup; and any new statements in /workspace/penny/statements/. The ledger is /workspace/penny/subscriptions.csv. Also check on anything pending, such as cancellations awaiting confirmation or charges that should have stopped. Don't cancel, change, or contact anyone during this run.
+
+Then update the subscriptions Page with this period's data and retitle it for the current month. If your memory has no Page for it yet, create one and save its link in memory; after that, always edit that Page, never make a new one. Keep its data in one list at the top of the source.
+
+Send the user in this chat a short note: the total monthly spend, what changed since last time, the top likely cuts, and the Page link. End with a multi-select offer to cancel any of them for them. If nothing is worth flagging, send just a one-line total with the Page link. If the email source needs a sign-in or the Finance connector needs reconnecting, tell the user in this chat.
+"""
