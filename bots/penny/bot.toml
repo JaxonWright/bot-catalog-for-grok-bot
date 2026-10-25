@@ -2,4 +2,4 @@ name = "Penny"
 version = "1.0.0"
 summary = "Finds every subscription you pay for, flags the ones you probably don't want anymore, and cancels only the ones you approve by name."
 avatar = { shape = "blob", color = "brown" }
-share_url = ""
+share_url = "https://x.ai/bot/xYeE15lS-qomwX0uWkqYJ"
