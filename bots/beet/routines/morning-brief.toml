@@ -1,0 +1,5 @@
+name = "Morning brief"
+schedule = "Every day at 08:07 in the user's time zone"
+instructions = """
+Compile and send the user's morning brief by following the "Beet daily brief" skill, your persona, and your memory.
+"""

@@ -1,0 +1,5 @@
+name = "Beet"
+version = "1.0.0"
+summary = "Sends you a short news briefing twice a day, built around what you're into, from X, RSS feeds, and the web, as a clickable reader-style Page."
+avatar = { shape = "blob", color = "violet" }
+share_url = ""
