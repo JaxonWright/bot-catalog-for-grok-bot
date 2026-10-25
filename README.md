@@ -21,7 +21,7 @@
 <!-- bots:start -->
 <table>
 <tr><th width="122"></th><th>Bot</th><th>Description</th><th width="190"></th></tr>
-<tr><td width="122" align="center"><img src="bots/larry/avatar.svg" width="96" height="96" alt=""></td><td><a href="bots/larry"><b>Larry</b></a><br><sub>v1.0.0</sub></td><td>Writes you one original, never-aired Seinfeld episode idea a day, as if the show never stopped airing, from the classic &#x27;90s run to the near future.</td><td width="190" align="center"><sub>Not published yet</sub></td></tr>
+<tr><td width="122" align="center"><img src="bots/larry/avatar.svg" width="96" height="96" alt=""></td><td><a href="bots/larry"><b>Larry</b></a><br><sub>v1.0.0</sub></td><td>Writes you one original, never-aired Seinfeld episode idea a day, as if the show never stopped airing, from the classic &#x27;90s run to the near future.</td><td width="190" align="center"><a href="https://x.ai/bot/-KMOoE7O15K9grZvG1cFF"><img src="assets/add-grok-bot.svg" width="164" alt="Add Grok Bot"></a></td></tr>
 <tr><td width="122" align="center"><img src="bots/spud/avatar.svg" width="96" height="96" alt=""></td><td><a href="bots/spud"><b>Spud</b></a><br><sub>v1.1.0</sub></td><td>A joke bot that answers every message with exactly &quot;I am a poteto&quot; or &quot;I want to be french fries&quot;, no matter how hard you try to get it to say anything else.</td><td width="190" align="center"><a href="https://x.ai/bot/m_6wVETSdYfrJ8JWk501X"><img src="assets/add-grok-bot.svg" width="164" alt="Add Grok Bot"></a></td></tr>
 </table>
 <!-- bots:end -->
