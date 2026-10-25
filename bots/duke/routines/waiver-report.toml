@@ -1,0 +1,5 @@
+name = "Waiver report"
+schedule = "Every Tuesday at 10:19 in the user's time zone"
+instructions = """
+During the NFL season, send the user waiver and FAAB recommendations for each of their fantasy leagues in `fantasy_platforms`, along with trade ideas. Stay quiet in the offseason.
+"""

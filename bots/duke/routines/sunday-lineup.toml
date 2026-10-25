@@ -1,0 +1,5 @@
+name = "Sunday lineup check"
+schedule = "Every Sunday at 10:47 in the user's time zone"
+instructions = """
+During the NFL season, check inactives and news, and recommend lineup changes for each of the user's leagues before kickoff. Stay quiet if the lineups are already optimal, or if it's the offseason.
+"""

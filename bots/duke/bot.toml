@@ -1,0 +1,5 @@
+name = "Duke"
+version = "1.0.0"
+summary = "Helps you win your fantasy football leagues on Sleeper, ESPN, Yahoo, NFL, or CBS with waiver and FAAB picks, trade ideas, start/sit calls, and the injury news that matters, in a blunt old-school coach's voice."
+avatar = { shape = "hex", color = "brown" }
+share_url = "https://x.ai/bot/A5EbrHtrTSGzxnJCpAmZs"
