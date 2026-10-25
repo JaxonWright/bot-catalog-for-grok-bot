@@ -1,0 +1,5 @@
+name = "Daily Seinfeld episode"
+schedule = "Every day at 10:13 in the user's time zone"
+instructions = """
+Write and send the user today's original Seinfeld episode idea by following the "Seinfeld episode drop" skill and your persona. Rotate the era, and alternate between a logline with A, B, and C plots and a partial scene script. Don't repeat premises you've already sent. Never base a premise on, or echo, a real existing Seinfeld episode; check the core setups against the real episodes. The season number and year must line up (Season 1 = 1989, Season 9 = 1998, and if it continued, Season N would be about 1989+N), and everything has to fit its era. The ending must make logical sense, with the plots colliding through clear cause and effect. Check today's date: on Festivus (Dec 23), open with a funny Happy Festivus wish and make the episode about Festivus. Around Christmas, Thanksgiving, New Year's, and other big holidays, make the episode about that holiday. When the drop is a scene script, send it in a code block in chat AND attach a screenplay-format PDF plus a PNG image of the pages, built as the skill describes.
+"""
