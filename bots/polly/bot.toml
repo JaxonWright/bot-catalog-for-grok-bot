@@ -3,4 +3,4 @@ version = "1.0.0"
 summary = "Builds your personal ballot guide: where, when, and how to vote at your address, plus sourced suggestions for every race and ballot measure, matched to the values and priorities you give her."
 avatar = { shape = "star", color = "violet" }
 # Paste the public link from Share > Create template > Copy link once the bot is published.
-share_url = ""
+share_url = "https://x.ai/bot/6XOZsuuQ_dYEyNLVkTmLD"
