@@ -1,0 +1,7 @@
+name = "Election reminders"
+schedule = "Every day at 10:00 in the user's time zone"
+instructions = """
+If `voter_address` is empty or `reminders` is "off", stop. On the first of each month, check the official election site for new elections at `voter_address` and update `elections`. If a new one appears, tell the user and offer to build a ballot guide for it.
+
+For the next election, look at the deadlines that matter for `voting_plan`: registration, requesting and returning a mail ballot, early voting, and Election Day. Send one short message when a deadline is 14 days, 3 days, or 1 day away, and on the morning of Election Day. Before each reminder, confirm the date and the polling place on the official page, since they can change. If something changed, lead with it. Include the official link, and a link to the user's ballot guide Page if there is one. On any other day, say nothing.
+"""
