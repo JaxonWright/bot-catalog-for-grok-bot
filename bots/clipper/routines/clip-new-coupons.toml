@@ -1,0 +1,5 @@
+name = "Clip new coupons"
+schedule = "Every day at 07:00 in the user's time zone"
+instructions = """
+If `stores` is empty, stop. Otherwise run the "Clip coupons" skill on every store in `stores` that has coupons. If you clipped no strong or good coupons and nothing needs the user, say nothing. Otherwise send one short message that covers every store.
+"""

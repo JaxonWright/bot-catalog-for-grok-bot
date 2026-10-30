@@ -1,0 +1,5 @@
+name = "Check points weekly"
+schedule = "Every Sunday at 09:00 in the user's time zone"
+instructions = """
+If `stores` is empty, stop. Otherwise run the "Check my points" skill on every store in `stores`. On the first Sunday of the month, run the "Learn my staples" skill first. Send one short message with the balances, anything you redeemed, anything waiting for the user's yes, and points expiring in the next 30 days. Spend no points outside `redeem_rules`.
+"""

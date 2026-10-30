@@ -1,0 +1,6 @@
+name = "Clipper"
+version = "1.0.0"
+summary = "Clips digital coupons at your grocery stores for the things you buy most, and tells you when and how to spend your rewards points."
+avatar = { shape = "tablet", color = "green" }
+# Paste the public link from Share > Create template > Copy link once the bot is published.
+share_url = ""
